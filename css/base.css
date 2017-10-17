@@ -1,9 +1,9 @@
 /* Base Styles -------------------------------- */
 
-
 .main-header {
   height: 200px;
   padding-top: 100px;
+  padding-left: 50px;
   background: linear-gradient(#AA98A9, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
              #ffa949 url('../img/headerbcg.jpg') no-repeat center;
@@ -12,14 +12,13 @@
 
 }
 
-
 body {
 	font-family: 'Nunito', sans-serif;
 	font-size: 1.1em;
 	line-height: 1.5;
 	color: #384047;
 	padding: 10px 0 80px;
-    
+    margin: 0;
 }
 div {
 	width: 52%;
@@ -50,7 +49,7 @@ a {
  text-decoration: none; 
 }
 
-#wrapper {
+row {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;

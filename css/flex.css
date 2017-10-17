@@ -1,22 +1,38 @@
 /* ================================= 
-  Base Styles
+  Media Queries
 ==================================== */
 
-body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+@media (min-width: 769px) {
+
+	.main-header,
+	.main-nav,
+	.row {
+		display: flex;
+	}
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.col {
+		flex: 1;
+	}
+
 }
 
-.row {
-	flex: 1;
+@media (min-width: 1025px) {
+
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.primary {
+		flex: 2;
+	}
+    .secondary {
+        flex: 3
+        margin:auto;
+        
+    }
 }
-
-
-
-
-
-
-
-
-
