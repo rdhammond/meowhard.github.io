@@ -29,10 +29,11 @@
 
 	.primary {
 		flex: 2;
+        margin-right: 10px;
 	}
     .secondary {
-        flex: 3
-        margin:auto;
+        justify-content: space-between;
+        
         
     }
 }

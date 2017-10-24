@@ -85,6 +85,10 @@ footer {
   height: 20px;
   margin: 0 5px;
 }
+.main-footer {
+	padding: 2em 0;
+	margin-top: 30px;
+}
 
 /* Header------------------------------------------*/
 
@@ -101,22 +105,8 @@ nav li {
 
 /* Body-------------------------------------------*/
 
-.description {
-    margin: auto;
-   
 
-}
 
-.description h1 {
-   margin: auto;
-    
-    
-}
-
-.order {
-    margin: auto;
-    
-}
 
 .intro {
     margin: auto;
