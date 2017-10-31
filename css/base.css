@@ -4,9 +4,9 @@
   height: 200px;
   padding-top: 100px;
   padding-left: 50px;
-  background: linear-gradient(#AA98A9, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),
-             #ffa949 url('../img/headerbcg.jpg') no-repeat center;
+  background: linear-gradient(#000, transparent 90%),
+              linear-gradient(0deg, #4B4444, transparent),
+             #DAA8F1 url('../img/headerbcg.jpg') no-repeat center;
   
   background-size: cover;
 
@@ -16,21 +16,29 @@ body {
 	font-family: 'Nunito', sans-serif;
 	font-size: 1.1em;
 	line-height: 1.5;
-	color: #384047;
+	color: beige;
 	padding: 10px 0 80px;
     margin: 0;
+    background-color: #4B4444;
+    
+   
+        
+   
 }
 div {
-	width: 52%;
+	width: 75%;
 	margin: auto;
+    
+    
 }
 h1 {
     text-align: center;
-	margin-bottom: 36px;
+	margin: 36px;
 }
 p {
 	margin-bottom: 24px;
-  font-weight: 200;
+    font-weight: 200;
+
 }
 ul {
 	font-size: 1.25rem;
@@ -110,7 +118,7 @@ nav li {
 
 .intro {
     margin: auto;
-    padding-left: 5px;
+    padding-left: 10px;
     
 }
 
@@ -159,10 +167,9 @@ COLORS
 ********************************/
 
 
-
 /* links */
 a {
-  color: #2D97A5;
+  color: #D98EE0;
 }
 
 
@@ -173,7 +180,7 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected,  nav a:hover {
-  color: #B3CE8D;
+  color: cornsilk;
 }
 
 /* Substring Matching Attribute Selectors ---- */
@@ -195,7 +202,7 @@ a[href^="http:"] {
   font-size: 60px;
   color: white;
   padding: 5px 10px;
-  background: #384047;
+  background: #8B8282;
   margin:10px 10px 0 0;
   border-radius: 5px;
   line-height: 1;
