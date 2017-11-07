@@ -27,13 +27,13 @@ var banner = ['// ==================================================',
 
 gulp.task('scripts', function() {
     return gulp.src([
-            'src/js/core.js',
-            'src/js/media.js',
-            'src/js/guestures.js',
-            'src/js/slideshow.js',
-            'src/js/fullscreen.js',
-            'src/js/thumbs.js',
-            'src/js/hash.js',
+            'fancybox/js/core.js',
+            'fancybox/js/media.js',
+            'fancybox/js/guestures.js',
+            'fancybox/js/slideshow.js',
+            'fancybox/js/fullscreen.js',
+            'fancybox/js/thumbs.js',
+            'fancybox/js/hash.js',
         ])
         .pipe(concat('jquery.fancybox.js'))
         .pipe(replace(/({fancybox-version})/g, pkg.version))
@@ -49,7 +49,7 @@ gulp.task('scripts', function() {
 // Compile CSS
 
 gulp.task('css', function() {
-    return gulp.src('src/css/*.css') // Gets all files src/css
+    return gulp.src('fancybox/css/*.css') // Gets all files src/css
         .pipe(sass())
         .pipe(autoprefixer({
             browsers: ['last 5 versions'],
