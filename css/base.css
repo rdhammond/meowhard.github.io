@@ -1,5 +1,15 @@
 /* Base Styles -------------------------------- */
 
+.cat-hammock {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 199px;
+	height: 164px;
+	z-index: 999;
+	background: url('../img/cat-hammock.gif') no-repeat;
+}
+
 .main-header {
   height: 200px;
   padding-top: 100px;
